@@ -1,0 +1,14 @@
+.container h1 {
+    text-align: center;
+}
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+.container input[type=button] {
+    display: block;
+    margin: 0 auto;
+}
+.container * {
+    margin-top: 25px;
+}

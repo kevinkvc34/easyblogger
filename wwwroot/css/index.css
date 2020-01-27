@@ -1,0 +1,20 @@
+div {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px;
+}
+#login {
+    margin-left: 200px;
+    background-color: #008CBA;
+}
+#register {
+    margin-left: 300px;
+    margin-top: 200px;
+    background-color: #4CAF50;
+}
+div h1 {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
