@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\blog.csproj",
+  "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\blog.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2956,63 +2956,63 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 703
   },
   "RootNamespace": "blog",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Home\\Dash.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Home\\Dash.cshtml",
       "TargetPath": "Views\\Home\\Dash.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Home\\register.cshtml",
-      "TargetPath": "Views\\Home\\register.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Home\\login.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Home\\login.cshtml",
       "TargetPath": "Views\\Home\\login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\kevin\\Desktop\\blog\\blog\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\Views\\Home\\register.cshtml",
+      "TargetPath": "Views\\Home\\register.cshtml",
       "FileKind": "mvc"
     }
   ],

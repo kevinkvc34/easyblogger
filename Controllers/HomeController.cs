@@ -65,9 +65,27 @@ namespace blog.Controllers
             if(HttpContext.Session.GetInt32("logged_user") == null) {
                 return Redirect("/");
             } else {
+            List<Post> posts = dbcontext.Posts.Include(a => a.User).ToList();
+            Post p = new Post();
             User u = dbcontext.Users.FirstOrDefault(f => f.UserId == HttpContext.Session.GetInt32("logged_user"));
-            return View(u);
+            DashViewModel m = new DashViewModel {
+                user = u,
+                post = p,
+                posts = posts
+            };
+            return View(m);
             }
+        }
+        [HttpPost("post-message")]
+        public IActionResult PostMsg(String Message) {
+            User logged = dbcontext.Users.FirstOrDefault(a => a.UserId == HttpContext.Session.GetInt32("logged_user"));
+            Post newPost = new Post {
+                UserId = logged.UserId,
+                Message = Message
+            };
+            dbcontext.Posts.Add(newPost);
+            dbcontext.SaveChanges();
+            return Redirect("/dashboard");
         }
         [HttpGet("logout")]
         public IActionResult Logout() {

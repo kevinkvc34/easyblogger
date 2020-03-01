@@ -1,4 +1,4 @@
-@model User
+@model DashViewModel
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +8,21 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>Hello, @Model.Username!</h1>
+    <h1>Hello, @Model.user.Username</h1>
     <a href="/logout">Log out</a>
+
+    <form action="/post-message" method="post">
+        <div class="form-group">
+            <label>message</label>
+            <input type="text" name="Message">
+        </div>
+        <input type="submit">
+    </form>
+    @{
+        foreach(var message in Model.posts) {
+            <h1>@message.User.Username</h1>
+            <h2>@message.Message</h2>
+        }
+    }
 </body>
 </html>

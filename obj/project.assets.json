@@ -12149,23 +12149,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {},
+    "C:\\Users\\wermuy\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\Desktop\\blog\\blog\\blog.csproj",
+      "projectUniqueName": "c:\\Users\\wermuy\\Desktop\\easyblogger\\blog.csproj",
       "projectName": "blog",
-      "projectPath": "C:\\Users\\kevin\\Desktop\\blog\\blog\\blog.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\Desktop\\blog\\blog\\obj\\",
+      "projectPath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\blog.csproj",
+      "packagesPath": "C:\\Users\\wermuy\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\wermuy\\Desktop\\easyblogger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\wermuy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
